@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project utilizes deep learning techniques to perform face verification, which involves determining whether two facial images belong to the same person or not. The model is trained on a dataset of facial images and learns to extract features that are discriminative for identifying individuals.
+This project implements face verification using deep learning techniques. It utilizes a Siamese Neural Network architecture trained on a dataset containing anchor, positive, and negative images. During training, the model learns to differentiate between images of the target person (positive samples) and images of other individuals (negative samples). The trained model is then used for verification, where it compares a given input image against a set of verification images to determine whether the input image belongs to the target person or not.
 
 ## Requirements
 
